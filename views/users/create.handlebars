@@ -1,2 +1,54 @@
-<h1>Usuario</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cad Usuário</title>
+    <link rel="stylesheet" href="/css/users.css">
+</head>
+<body>
+    <form class="row g-3">
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Nome</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Informe o seu nome">
+  </div>    
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Senha</label>
+    <input type="password" class="form-control" id="inputPassword4" placeholder="Informe a sua senha">
+  </div>
+    <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">E-mail</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="Informe o seu e-mail" />
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">Perfil de acesso</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Master</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Igreja</label>
+    <select id="inputState" class="form-select">
+      <option selected>Ferrazópolis</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Ativo
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Salvar</button>
+  </div>
+</form>
+</body>
+</html>
 
