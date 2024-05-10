@@ -12,32 +12,42 @@
 <body>
     <header>
         <nav class="menu-lateral">
-            <div class="dropdown">  
-            <div>
-                <a class="btn_D"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="icon_simples"><i class="bi bi-columns-gap"></i></span> 
-                <span class="txt-link">Dashboard</span>                  
-                </a>
-                
-            </div>    
-            <div>   
-                <a class="btn dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="icon_btn"><i class="bi bi-archive-fill"></i></span> 
-                <span class="txt-link">Cadastro</span>                  
-                </a>
-                <ul class="dropdown-menu"> 
-                    <div>
-                        <span class="icon_menu"><i class="bi bi-person-badge"></i>              
-                        <li><a class="dropdown-item" href="#">Usuário</a></span></li>
+         <div class="container-fluid">
+            <div class="row flex-nowrap">
+                <div class="bg col-auto col-md-2 min-vh-100 d-flex flex-column justify-content-between">
+                    <div class="bg p-2">                        
+                        <ul class="nav nav-pills fs-6 p-0 flex-column mt-5">
+                            <li class="nav-item" id="menu_icons">
+                                <a href="#" class="nav-link text-white">
+                                    <i class="bi bi-columns-gap "></i><span class="fs-6 ms-4 d-none d-sm-inline">Dashbord</span>
+                                </a>
+                            </li>
+                            <li class="nav-item " id="menu_icons">
+                                <a href="#" class="nav-link text-white">
+                                    <i class="bi bi-bar-chart-line-fill"></i><span class="fs-6 ms-4 d-none d-sm-inline">Relatórios</span>
+                                </a>
+                            </li>
+                            <li class="nav-item " id="menu_icons">
+                                <a href="#" class="nav-link text-white">
+                                    <i class="bi bi-house-lock-fill"></i><span class="fs-6 ms-4 d-none d-sm-inline">Patrimônio</span>
+                                </a>
+                            </li>
+                            <div class="dropdown open" id="menu_botao">
+                                <button class="btn dropdown-toggle text-white" id="btnbotao" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   <i class="bi bi-archive-fill p-1"></i><span class="fs-6 ms-4 d-none d-sm-inline" id="botaoicon">Cadastros</span>
+                                </button>
+                                <ul class="dropdown-menu" aria-activedescendant="tringgerId">
+                                    <button class="dropdown-item text-white" id="menuitem" href="#"><i class="bi bi-person-badge-fill"></i><span class="fs-6 ms-4 d-none d-sm-inline">Usuários</span></button>
+                                    <button class="dropdown-item text-white" id="menuitem" href="#"><i class="bi bi-people-fill"></i></i><span class=" fs-6 ms-4 d-none d-sm-inline">Membros</span></button>
+                                </ul>
+                            </div>
+                        </ul>                        
                     </div>
-                    <div>
-                        <span class="icon_menu"><i class="bi bi-people-fill"></i></i> 
-                        <li><a class="dropdown-item" href="#">Membros</a></li>
-                    </div>                 
-                </ul>
-            </div> 
-            </div> 
-           </div> 
+                </div>
+            </div>
+        </div>
+   
+                          
         </nav>
     </header>
     <main>

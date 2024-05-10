@@ -1,113 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
-}
-
-body {
-    height: 100vh;
-}
-
-nav.menu-lateral{
-    width: 220px;
-    height: 100%;
+.dropdown-menu {
     background-color: #202020;
-    padding: 40px 0 40px 1%;
+}
+
+.container-fluid {
+    width: 70px;
+    background-color: #202020;
     box-shadow: 6px 0 0 rgb(146, 146, 24);
     position: fixed;
-    top:0;
-    left: 0;
     transition: .3s;
     overflow: hidden;
-    line-height: 30px;
 }
 
-.dropdown {
-    color:#fff; 
-    margin-left: 10px;
-    list-style-type: none;
-    text-decoration: none;   
-    padding: 20px 4%;
-    margin-top: 10%; 
+.container-fluid:hover{
+    width: 210px;
 }
 
-.icon_link{
-    color: #fff;
-    font-size: 25px;
-}
-
-.btn {
-    margin-top: 4%;
+.button.dropdown-item:hover{
     background-color: #202020;
-    font-size: 18px; 
-    color: #fff;   
-    position: fixed;
-    overflow: hidden;
-    text-decoration: none;
+}
+
+#btnbotao {
     border: none;
 }
 
-.btn_D {
-    margin-top: 1%;
-    background-color: #202020;
-    font-size: 18px; 
-    color: #fff;   
-    position: fixed;
-    overflow: hidden;
-    text-decoration: none;
+#btnbotao:hover{
     border: none;
 }
 
-.btn:hover {
-    color: #fff;
-    border: none;
-}
-
-a.btn:hover {
+#menuitem {
     background-color: #202020;
-    border: none;
-    color:#fff;
 }
 
-.icon_btn {
-    font-size: 25px;
-    color: #fff;
-}
-
-.txt-link {
-    margin-left: 13px;
-}
-
-.icon_menu {
-    background-color: #202020;
-    color: #fff;
-    font-size: 22px;
-    display: flex;
-    margin-left: 9%;
-    border: none;
-}
-
-
-.dropdown-menu {
-    background-color: #202020;    
-    color: #fff; 
-    margin-top: 1%;  
-}
-
-a.dropdown-item {
-    color:#fff;
-    font-size: 18px;
-}
-
-a.dropdown-item:hover {
-    background-color: #202020;
-    color: #fff;
-}
-
-.icon_simples {
-    font-size: 25px;
-    margin-left: 13px;
+.menu_botao{
+    margin: 0;
 }

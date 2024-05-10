@@ -1,13 +1,6 @@
-body{    
-    margin-left: 270px;
-    margin-top: 8%;
-    height: 2px; 
-    padding: 0 40px 0; 
-    display: flex;  
-    top: 10px;
-}
+#formusuario{
+    margin-left: 20%;  
+    margin-top: 8%;  
+    position: fixed;
 
-.form-control:hover{
-    font-size: 17px;
-    color: rgb(83, 83, 83);
 }
